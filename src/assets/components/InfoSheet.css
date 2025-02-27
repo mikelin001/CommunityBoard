@@ -1,0 +1,31 @@
+.infosheet
+{
+    border: 3px rgb(218, 243, 249) solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 20%; 
+    max-width: 20%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgb(231, 252, 233);
+}
+.buttonMuseum
+{
+    width:50%;
+    height:50px;
+    margin-left: 25%;
+    margin: 50px 25% 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(193, 246, 254);
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+}
+
+.graphic-img
+{
+    border-radius: 15px;
+    border: solid rgb(30, 0, 255) 2px;
+    min-height: 200px;
+}

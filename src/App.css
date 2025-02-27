@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App
+{
+  font-family: 'Roboto',sans-serif;
+  font-size:20px;
+}
+
+
+
+.Title
+{
+  border: 2px solid rgb(185, 239, 255);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 7px 9px;
+}
+.firstSection
+{
+  display:flex;
+  padding: 32px;
+  max-height:270px;
+  background-color: rgb(43, 50, 67);
+  color:rgb(243, 247, 251);
+  flex:1;
+}
+
+.firstSection img
+{
+  
+  margin: 0 5% 0 15%;
+  background-color:rgb(32, 29, 43);
+  border: 2px solid rgb(185, 239, 255);
+  border-radius: 15px;
+  box-shadow: 15px 10px rgb(77, 118, 131);
+  opacity: .95;
+  flex-grow: 1;
+}
+
+.Quote
+{
+  font-size: 30px;
+  font-style:italic;
+  font-weight:lighter;
+  margin-bottom:0;
+  opacity: .90;
+}
+.Author
+{
+  margin-top:0;
+  margin-left:70%;
+  font-size: 23px;
+}
+
+.Museum
+{
+  margin:0;
+  height:170px;
+  color:rgb(28, 51, 70);
+  font-family: "Austin";
+  background-color: rgb(226, 236, 236);
+  font-size: 66px;
   text-align: center;
+  padding-top: 40px;
+  border-radius: 15px;
+  font-style: italic;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.secondSection
+{
+  font-weight: strong;
+  padding: 120px 60px;
+  gap:22px;
+  justify-content: space-evenly;
+  display:flex;
+  flex-wrap: wrap;
+  color:rgb(56, 72, 86);
+  background-color:rgb(60, 75, 86);
 }
